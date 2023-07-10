@@ -12,8 +12,8 @@ test.describe('Test login page', () => {
     expect(await page.getByTestId('signin-email')).toBeVisible();
     expect(await page.getByTestId('signin-password')).toBeVisible();
 
-    await page.getByTestId('signin-email').fill('foulen1995@gmail.com');
-    await page.getByTestId('signin-password').fill('Qazwsx123!');
+    await page.getByTestId('signin-email').fill('xxx');
+    await page.getByTestId('signin-password').fill('xxx');
     
     
     await page.getByTestId('signin-submit').click();

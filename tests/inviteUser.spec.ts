@@ -15,8 +15,8 @@ test.describe('Login Tests', () => {
     expect(emailInput).toBeTruthy();
     expect(passwordInput).toBeTruthy();
 
-    await emailInput.fill('abarmot.92+at@gmail.com');
-    await passwordInput.fill('Qazwsx123!');
+    await emailInput.fill('xxx');
+    await passwordInput.fill('xxx');
 
     await page.click('[data-testid="signin-submit"]');
 
