@@ -29,6 +29,7 @@ test.describe('setUoUser', () => {
       const registrationPassConfirm = await page.waitForSelector('[data-testid="registration-confirm-password"] input');
       await page.click('[data-testid="registration-confirm-policy"]');
       await page.click('[data-testid="registration-submit"]');
+
       
 
     });
