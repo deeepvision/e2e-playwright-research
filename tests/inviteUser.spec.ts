@@ -31,6 +31,7 @@ test.describe('Login Tests', () => {
     const randomChars = Math.random().toString(36).substring(2, 5);
     const email = `abarmot.92+${randomChars}@gmail.com`;
     await inviteEmail.fill(email);
+
     
     
   });

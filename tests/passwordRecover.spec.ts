@@ -17,6 +17,7 @@ test.describe('Password recover', () => {
 
     await page.waitForSelector('[data-testid="password-recovery-submit"]');
     await page.click('[data-testid="password-recovery-submit"]');
+
     
 
 });
